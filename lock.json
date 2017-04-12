@@ -1,0 +1,70 @@
+{
+    "memo": "89a393e87a0908594196e6968ac118aa94df794979419ea27b2f34795aea6a5b",
+    "projects": [
+        {
+            "name": "github.com/Microsoft/go-winio",
+            "version": "v0.3.8",
+            "revision": "fff283ad5116362ca252298cfc9b95828956d85d",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/Sirupsen/logrus",
+            "branch": "master",
+            "revision": "1deb2db2a6fff8a35532079061b903c3a25eed52",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/coreos/go-systemd",
+            "branch": "master",
+            "revision": "e97b35f834b17eaa82afe3d44715c34736bfa12b",
+            "packages": [
+                "activation"
+            ]
+        },
+        {
+            "name": "github.com/docker/go-connections",
+            "branch": "master",
+            "revision": "e15c02316c12de00874640cd76311849de2aeed5",
+            "packages": [
+                "sockets"
+            ]
+        },
+        {
+            "name": "github.com/docker/go-plugins-helpers",
+            "branch": "master",
+            "revision": "8af45ff6ad5b7608853de51133c33e6638b02134",
+            "packages": [
+                "sdk"
+            ]
+        },
+        {
+            "name": "github.com/sameo/go-plugins-helpers",
+            "branch": "master",
+            "revision": "4893f5c04c1cc0d123635ec4127fc400dcbca3ac",
+            "packages": [
+                "runtime"
+            ]
+        },
+        {
+            "name": "golang.org/x/net",
+            "branch": "master",
+            "revision": "d1e1b351919c6738fdeb9893d5c998b161464f0c",
+            "packages": [
+                "proxy"
+            ]
+        },
+        {
+            "name": "golang.org/x/sys",
+            "branch": "master",
+            "revision": "99f16d856c9836c42d24e7ab64ea72916925fa97",
+            "packages": [
+                "unix",
+                "windows"
+            ]
+        }
+    ]
+}

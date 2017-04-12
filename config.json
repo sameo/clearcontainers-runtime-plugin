@@ -1,0 +1,30 @@
+{
+    "description": "Clear Containers plugin for Docker",
+    "documentation": "https://docs.docker.com/engine/extend/plugins/",
+    "entrypoint": [
+        "/cc"
+    ],
+    "env": [
+        {
+            "name": "DEBUG",
+            "settable": [
+                "value"
+            ],
+            "value": "0"
+        }
+    ],
+    "interface": {
+        "socket": "clearcontainers.sock",
+        "types": [
+            "docker.runtimedriver/1.0"
+        ]
+    },
+    "linux": {
+        "capabilities": [
+            "CAP_SYS_ADMIN"
+        ]
+    },
+    "network": {
+        "type": "host"
+    }
+}
